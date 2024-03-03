@@ -1,0 +1,19 @@
+[Android_Device INFO ] 2024-03-03 23:07:16.611 ServerManager:24 - starting appium server
+[Android_Device INFO ] 2024-03-03 23:07:20.600 ServerManager:32 - Appium server started
+[Android_Device INFO ] 2024-03-03 23:07:20.633 DriverManager:34 - initializing Appium driver
+[Android_Device INFO ] 2024-03-03 23:07:20.653 PropertyManager:20 - loading config properties
+[Android_Device INFO ] 2024-03-03 23:07:20.654 CapabilitiesManager:30 - getting capabilities
+[Android_Device INFO ] 2024-03-03 23:07:48.675 DriverManager:46 - Driver is initialized
+[Android_Device INFO ] 2024-03-03 23:07:52.212 BasePage:88 - login with invalidUsername
+[Android_Device INFO ] 2024-03-03 23:07:53.602 BasePage:88 - password is secret_sauce
+[Android_Device INFO ] 2024-03-03 23:07:54.264 BasePage:76 - press login button
+[Android_Device INFO ] 2024-03-03 23:08:18.891 BasePage:88 - login with standard_user
+[Android_Device INFO ] 2024-03-03 23:08:20.676 BasePage:88 - password is invalidPassword
+[Android_Device INFO ] 2024-03-03 23:08:21.365 BasePage:76 - press login button
+[Android_Device INFO ] 2024-03-03 23:08:22.090 BasePage:109 - error text is - Username and password do not match any user in this service.
+[Android_Device INFO ] 2024-03-03 23:08:22.847 BasePage:88 - login with standard_user
+[Android_Device INFO ] 2024-03-03 23:08:24.153 BasePage:88 - password is secret_sauce
+[Android_Device INFO ] 2024-03-03 23:08:24.805 BasePage:76 - press login button
+[Android_Device INFO ] 2024-03-03 23:08:26.883 BasePage:109 - product page title is - PRODUCTS
+[Android_Device INFO ] 2024-03-03 23:08:31.747 BasePage:109 - page test is - BACK TO PRODUCTS
+[Android_Device INFO ] 2024-03-03 23:08:32.047 BasePage:109 - page test is - BACK TO PRODUCTS
