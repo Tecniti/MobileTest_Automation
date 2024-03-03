@@ -20,6 +20,9 @@ import static io.appium.java_client.touch.offset.ElementOption.element;
 import static io.appium.java_client.touch.offset.PointOption.point;
 import static java.time.Duration.ofMillis;
 
+/***
+ * This Class is used to contain all the common utility which is helping in the step defination
+ */
 public class BasePage {
     static FileReader reader;
     static Properties p;

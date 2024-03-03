@@ -11,6 +11,12 @@ import org.junit.runner.RunWith;
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
 
+/***
+ *     This is the starting class which includes below:-
+ *     Initialize global parameter for IOS/ Android which includes: platformName,Udid,deviceName,systemPort,chromeDriverPort
+ *     Starting Appium server
+ *     Starting device driver which include for Android & IOS device which includes PLATFORM_NAME,UDID,DEVICE_NAME,appPackage,appactivity
+ */
 @RunWith(Cucumber.class)
 @CucumberOptions(
         plugin = {"pretty", "html:target/HSBC_TestReport/report.html"}
@@ -22,11 +28,7 @@ import org.junit.BeforeClass;
 
 public class MyTestRunner {
     @BeforeClass
-    /**
-        1. Initialize global parameter for IOS/ Android which includes: platformName,Udid,deviceName,systemPort,chromeDriverPort
-        2. Starting Appium server
-        3. Starting device driver which include for Android & IOS device which includes PLATFORM_NAME,UDID,DEVICE_NAME,appPackage,appactivity
-     */
+
     public static void initilize() throws Exception {
         GlobalParams params = new GlobalParams();
         params.initializeGlobalParams();

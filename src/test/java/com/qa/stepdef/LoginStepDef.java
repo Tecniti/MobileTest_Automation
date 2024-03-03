@@ -13,6 +13,11 @@ import org.junit.Assert;
 import org.openqa.selenium.OutputType;
 
 
+/***
+ * This class is used to define the step defination and mapped with the feature file based on the test cases.
+ * Some function are written in this class itself and some of them are called from login,base and product class.
+ */
+
 public class LoginStepDef {
     public ExtentTest logInfo = null;
     @When("^I enter username as \"([^\"]*)\"$")

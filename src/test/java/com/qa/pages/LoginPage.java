@@ -4,6 +4,10 @@ import com.qa.utils.GlobalParams;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
+/***
+ * Ths class is containing all teh functions of login page of mobile application
+ * with the xpath of android application.
+ */
 public class LoginPage extends BasePage {
 	GlobalParams utils = new GlobalParams();
 
